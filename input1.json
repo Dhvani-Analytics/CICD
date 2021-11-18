@@ -1,0 +1,10 @@
+{
+    "id": 7,
+    "name": "\"cat.jpeg\"",
+    "path": "https://classificationmodelimgaes.s3.ap-southeast-1.amazonaws.com/cat.jpg",
+    "dataset": "dataset3",
+    "username": "user",
+    "model": "classification",
+    "createdAt": "2021-10-21T01:04:00.000Z",
+    "updatedAt": "2021-10-21T01:04:00.000Z"
+}
