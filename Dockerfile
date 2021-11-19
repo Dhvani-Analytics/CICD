@@ -17,7 +17,7 @@ WORKDIR /usr/src/app
 #copy all the files to the container
 COPY . .
 
-# tell the port number the container should expose
+# tell the port number the container should be expose
 
 EXPOSE 5000
 
