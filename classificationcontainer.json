@@ -25,7 +25,7 @@
       "workingDirectory": null,
       "secrets": null,
       "dockerSecurityOptions": null,
-      "memory": 500,
+      "memory": 300,
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
@@ -50,14 +50,14 @@
     }
   ],
   "placementConstraints": [],
-  "memory": "8192",
+  "memory": "2048",
   "taskRoleArn": "arn:aws:iam::036761224802:role/ecsTaskExecutionRole",
   "compatibilities": [
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:036761224802:task-definition/classificationcontainer:4",
-  "family": "classificationcontainer",
+  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:036761224802:task-definition/classificationmodeltask:1",
+  "family": "classificationmodeltask",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -84,8 +84,8 @@
   ],
   "networkMode": null,
   "runtimePlatform": null,
-  "cpu": "2048",
-  "revision": 4,
+  "cpu": "1024",
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
